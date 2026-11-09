@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chukwuemeka Prosper — Full-Stack Developer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="trail"></canvas>
+
+<div id="loader"><div class="loader-text">HELLO <br> WORLD</div></div>
+
+<nav id="nav">
+  <div class="logo">CP<span>.</span>dev</div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="burger" id="burger"><span></span><span></span><span></span></div>
+</nav>
+
+<header class="hero">
+  <div class="grid-bg"></div>
+  <div class="hero-inner">
+    <div>
+      <div class="eyebrow">I'M </span>AVAILABLE FOR WORK</div>
+      <h1 class="title">Hi, I'm <span class="grad">Chukwuemeka Prosper</span></h1>
+      <div class="role-line">&gt; <span id="typed"></span><span class="cursor-blink"></span></div>
+      <p class="bio">I'm a full-stack developer based in <strong>Nigeria</strong>, focused on building clean, fast, and responsive interfaces. My approach is simple: <strong>"Completing your website at all cost."</strong></p>
+      <div class="hero-ctas">
+        <button class="btn btn-primary" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">View Projects</button>
+        <button class="btn btn-outline" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get In Touch</button>
+      </div>
+    </div>
+    <div class="portrait-wrap">
+      <div class="code-frame">
+        <div class="bar"><span></span><span></span><span></span></div>
+        <div class="avatar-slot">
+          <div class="avatar-ring">
+          </div>
+            <div class="avatar-photo">
+              
+                <img src="./asset/1000002286.jpg" alt="profile img">
+            </div>
+          </div>
+        <div class="label-row">const dev = <span class="name">"Chukwuemeka Prosper"</span>;</div>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<section class="about" id="about">
+  <div class="section-head reveal">
+    <div class="eyebrow"></span>ABOUT ME</div>
+    <h2>Who I Am</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm <strong>Chukwuemeka Prosper</strong>, a front-end developer who treats every project like it's the only one that matters. I care about pixel-level detail, smooth interactions, and code that's easy to maintain.</p>
+      <p>My personal rule is simple: <strong>completing your website at all cost</strong> — meaning I don't stop until what you imagined matches what's on screen, down to the last transition.</p>
+      <p>Based in Nigeria, I work with clients and teams anywhere, building interfaces that feel as good as they look.</p>
+      <div class="stat-row">
+        <div class="stat"><div class="num">100%</div><div class="lab">Commitment</div></div>
+        <div class="stat"><div class="num">3+</div><div class="lab">Core Stacks</div></div>
+        <div class="stat"><div class="num">24/7</div><div class="lab">Dedication</div></div>
+      </div>
+    </div>
+    <div class="terminal reveal">
+      <div class="bar"><span style="background:#ff5f57;width:10px;height:10px;border-radius:50%;"></span>
+        <span style="background:#febc2e;width:10px;height:10px;border-radius:50%;"></span>
+        <span style="background:#28c840;width:10px;height:10px;border-radius:50%;"></span>
+      </div>
+      <pre><span class="com">// developer.json</span>
+{
+  <span class="prop">"name"</span>: <span class="str">"Chukwuemeka Prosper"</span>,
+  <span class="prop">"role"</span>: <span class="str">"Full-Stack Developer"</span>,
+  <span class="prop">"location"</span>: <span class="str">"Nigeria"</span>,
+  <span class="prop">"motto"</span>: <span class="str">"Completing your website at all cost"</span>,
+  <span class="prop">"status"</span>: <span class="str">"open to work"</span>
+}</pre>
+    </div>
+  </div>
+</section>
+
+<section class="skills" id="skills">
+  <div class="section-head reveal">
+    <div class="eyebrow"></span>MY STACK</div>
+    <h2>Skills &amp; Tools</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-card reveal" data-pct="95"><h3>HTML5</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">95%</p></div>
+    <div class="skill-card reveal" data-pct="88"><h3>CSS3 / Animations</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">88%</p></div>
+    <div class="skill-card reveal" data-pct="85"><h3>JavaScript</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">85%</p></div>
+    <div class="skill-card reveal" data-pct="75"><h3>Responsive Design</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">75%</p></div>
+    <div class="skill-card reveal" data-pct="70"><h3>Git &amp; GitHub</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">70%</p></div>
+    <div class="skill-card reveal" data-pct="65"><h3>UI/UX Thinking</h3><div class="bar-track"><div class="bar-fill"></div></div><p class="pct">65%</p></div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="section-head reveal">
+    <div class="eyebrow"></span>SELECTED WORK</div>
+    <h2>Projects</h2>
+  </div>
+  <div class="project-list">
+    <div class="project-card reveal">
+      <div class="project-thumb">project_one.html</div>
+      <div class="project-body">
+        <h3>FOOT SUB</h3>
+        <p>This is a simple football website built to display fifa world cup matches and it full details.... </p>
+        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+        <div class="proj-links"><a href="#">Live Demo</a><a href="#">Source Code</a></div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-thumb">project_two.html</div>
+      <div class="project-body">
+        <h3>Project Title Two</h3>
+        <p>Replace with a short description of this project — what it does and the problem it solves.</p>
+        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+        <div class="proj-links"><a href="#">Live Demo</a><a href="#">Source Code</a></div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-thumb">project_three.html</div>
+      <div class="project-body">
+        <h3>Project Title Three</h3>
+        <p>Replace with a short description of this project — what it does and the problem it solves.</p>
+        <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+        <div class="proj-links"><a href="#">Live Demo</a><a href="#">Source Code</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <div class="section-head reveal">
+    <div class="eyebrow"></span>JOURNEY</div>
+    <h2>Experience</h2>
+  </div>
+  <div class="timeline">
+    <div class="t-item reveal">
+      <h4>Front-End Developer — Add Company Name</h4>
+      <div class="t-date">Add Dates</div>
+      <p>Describe your role, what you built, and the impact you had.</p>
+    </div>
+    <div class="t-item reveal">
+      <h4>Front-End Developer — Add Company Name</h4>
+      <div class="t-date">Add Dates</div>
+      <p>Describe your role, what you built, and the impact you had.</p>
+    </div>
+    <div class="t-item reveal">
+      <h4>Started Learning Front-End Development</h4>
+      <div class="t-date">26-02-2025</div>
+      <p>I started learning front end development at Aptech computer education, umuahia Abia state.</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="reveal">
+    <div class="eyebrow" style="justify-content:center;display:flex;"></span>LET'S TALK</div>
+    <h2>Get In Touch</h2>
+    <p class="sub">Have a project in mind, or just want to say hi? My inbox is open.</p>
+  </div>
+  <form class="contact-form reveal" id="contactForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+  <div class="contact-info reveal">
+    <div class="item">Email<span><a href="mailto:prosperxfreefire@gmail.com">prosperxfreefire@gmail.com</a></span></div>
+    <div class="item">Location<span>Nigeria</span></div>
+  </div>
+  <div class="social-row reveal">
+    <a href="#" class="social-btn" title="LinkedIn">in</a>
+    <a href="#" class="social-btn" title="GitHub">GH</a>
+    <a href="mailto:prosperxfreefire@gmail.com" class="social-btn" title="Email">@</a>
+  </div>
+</section>
+
+<footer>
+  &copy; <span id="year"></span> <span>Chukwuemeka Prosper</span>. Built with HTML, CSS &amp; JavaScript only.
+</footer>
+
+<div id="toast">Message sent! (demo only)</div>
+<button id="toTop" title="Back to top">↑</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
